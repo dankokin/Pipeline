@@ -109,3 +109,7 @@ func CombineResults(in, out chan interface{}) {
 	sortedResults := strings.Join(results, "_")
 	out <- sortedResults
 }
+
+func main() {
+	fmt.Println("Hello, World!")
+}

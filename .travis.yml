@@ -1,0 +1,16 @@
+os: linux
+
+sudo: required
+
+services: docker
+
+language: go
+
+jobs:
+  include:
+    - name: "Tests"
+      script:
+        - go test -v -race
+
+notifications:
+  email: false

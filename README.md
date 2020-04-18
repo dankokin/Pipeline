@@ -1,4 +1,4 @@
- ###Go Concurrency Pipeline
+###Go Concurrency Pipeline
 
 Суть заключается в том, чтобы написать конвейер функций, в котором STDOUT одной программы
 передаётся как STDIN в другую программу.
